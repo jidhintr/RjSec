@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RJ Security Systems | Professional CCTV & Security Solutions</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Alert Banner -->
+    <div id="alert-banner" class="alert-banner">
+        <div class="container">
+            <p><i class="fas fa-bell"></i> <strong>Special Offer:</strong> Get FREE installation on all 4+ camera
+                packages this month! <a href="#quote">Get Quote Now</a></p>
+            <button id="close-alert" aria-label="Close alert">&times;</button>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">
+                <i class="fas fa-shield-alt"></i> RJ Security<span>Systems</span>
+            </a>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#hero" class="nav-link" data-i18n="nav_home">Home</a></li>
+                <li><a href="#services" class="nav-link" data-i18n="nav_services">Services</a></li>
+                <li><a href="#gallery" class="nav-link" data-i18n="nav_gallery">Gallery</a></li>
+                <li><a href="#reviews" class="nav-link" data-i18n="nav_reviews">Reviews</a></li>
+                <li><a href="#contact" class="nav-link" data-i18n="nav_contact">Contact</a></li>
+                <li><a href="#quote" class="btn btn-primary" data-i18n="nav_quote">Get a Quote</a></li>
+                <li>
+                    <button id="language-toggle" class="lang-toggle">
+                        <span id="lang-en" class="active">EN</span> | <span id="lang-ml">ML</span>
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Scrollytelling Container -->
+    <main class="scrolly-container">
+
+        <!-- Hero Section (Sticky) -->
+        <section id="hero" class="sticky-section">
+            <div class="sticky-bg" style="background-image: url('hero_cctv_bg.png'); background-color: #000;"></div>
+            <div class="content-overlay">
+                <div class="container hero-content">
+                    <h1 data-i18n="hero_title">Protect What Matters Most</h1>
+                    <p data-i18n="hero_subtitle">India's trusted partner for advanced CCTV surveillance and security
+                        systems. 24/7 monitoring for homes and businesses.</p>
+                    <div class="hero-btns">
+                        <a href="#quote" class="btn btn-primary btn-lg" data-i18n="hero_cta_quote">Get Free Quote</a>
+                        <a href="#services" class="btn btn-outline btn-lg" data-i18n="hero_cta_services">Explore
+                            Services</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Feature 1: Smart Home (Sticky) -->
+        <section class="sticky-section">
+            <div class="sticky-bg"
+                style="background-image: url('smart_home_bg.png'), linear-gradient(135deg, #1a1a1a 0%, #2c3e50 100%); background-color: #1a1a1a;">
+            </div>
+            <div class="content-overlay left-align">
+                <div class="container">
+                    <div class="feature-box">
+                        <h2>Smart Home Integration</h2>
+                        <p>Control your security from your palm. Our systems integrate seamlessly with Google Home and
+                            Alexa.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Feature 2: Remote Monitoring (Sticky) -->
+        <section class="sticky-section">
+            <div class="sticky-bg"
+                style="background-image: url('remote_monitoring_bg.png'), linear-gradient(135deg, #000428 0%, #004e92 100%); background-color: #000428;">
+            </div>
+            <div class="content-overlay right-align">
+                <div class="container">
+                    <div class="feature-box">
+                        <h2>Remote Monitoring</h2>
+                        <p>Keep an eye on your property from anywhere in the world. Real-time alerts directly to your
+                            smartphone.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Feature 3: Access Control (Sticky) -->
+        <section class="sticky-section">
+            <div class="sticky-bg"
+                style="background-image: url('access_control_bg.png'), linear-gradient(135deg, #11998e 0%, #38ef7d 100%); background-color: #11998e;">
+            </div>
+            <div class="content-overlay left-align">
+                <div class="container">
+                    <div class="feature-box">
+                        <h2>Advanced Access Control</h2>
+                        <p>Biometric scanners and smart locks to ensure only authorized personnel enter your premises.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Feature 4: Industrial (Sticky) -->
+        <section class="sticky-section">
+            <div class="sticky-bg"
+                style="background-image: url('industrial_bg.png'), linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%); background-color: #0a1a2a;">
+            </div>
+            <div class="content-overlay right-align">
+                <div class="container">
+                    <div class="feature-box">
+                        <h2>Industrial Grade Protection</h2>
+                        <p>Heavy-duty cameras designed for factories, warehouses, and large perimeters. Night vision up
+                            to 100 meters.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Services Section (Sticky) -->
+    <section class="sticky-section">
+        <div class="sticky-bg"
+            style="background-image: linear-gradient(135deg, rgba(30, 60, 114, 0.85) 0%, rgba(42, 82, 152, 0.85) 100%), url('https://images.unsplash.com/photo-1558002038-1055907df827?w=1920&q=80'); background-color: #1e3c72; background-size: cover; background-position: center;">
+        </div>
+        <div class="content-overlay">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h2 data-i18n="services_title" style="color: white; font-size: 3rem; margin-bottom: 20px;">Our
+                        Expertise</h2>
+                    <p data-i18n="services_subtitle"
+                        style="color: rgba(255,255,255,0.9); font-size: 1.2rem; margin-bottom: 60px;">Comprehensive
+                        security solutions tailored to your needs.</p>
+                </div>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="icon-box">
+                            <i class="fas fa-video"></i>
+                        </div>
+                        <h3 data-i18n="service_cctv_title">HD CCTV Systems</h3>
+                        <p data-i18n="service_cctv_desc">Crystal clear 4K and 1080p cameras with night vision and motion
+                            detection.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="icon-box">
+                            <i class="fas fa-wifi"></i>
+                        </div>
+                        <h3 data-i18n="service_wireless_title">IP & Wireless Cameras</h3>
+                        <p data-i18n="service_wireless_desc">Flexible wireless solutions that connect directly to your
+                            smartphone.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="icon-box">
+                            <i class="fas fa-user-shield"></i>
+                        </div>
+                        <h3 data-i18n="service_access_title">Access Control</h3>
+                        <p data-i18n="service_access_desc">Biometric and card-based entry systems for offices and
+                            apartments.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="icon-box">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <h3 data-i18n="service_remote_title">Remote Monitoring</h3>
+                        <p data-i18n="service_remote_desc">Watch live feeds from anywhere in the world via our secure
+                            mobile app.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Gallery Section (Sticky) -->
+    <section class="sticky-section">
+        <div class="sticky-bg"
+            style="background-image: linear-gradient(135deg, rgba(102, 126, 234, 0.85) 0%, rgba(118, 75, 162, 0.85) 100%), url('https://images.unsplash.com/photo-1557597774-9d273605dfa9?w=1920&q=80'); background-color: #667eea; background-size: cover; background-position: center;">
+        </div>
+        <div class="content-overlay">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h2 data-i18n="gallery_title" style="color: white; font-size: 3rem; margin-bottom: 20px;">Recent
+                        Installations</h2>
+                    <p data-i18n="gallery_subtitle"
+                        style="color: rgba(255,255,255,0.9); font-size: 1.2rem; margin-bottom: 40px;">Follow us on
+                        social media to see our latest work across India.</p>
+                </div>
+                <!-- Placeholder for Elfsight Widget -->
+                <div class="elfsight-placeholder">
+                    <div class="placeholder-content">
+                        <i class="fab fa-instagram"></i>
+                        <p>Connect your Elfsight Social Feed here to showcase your Instagram/Facebook gallery.</p>
+                        <small>Widget Code Area</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Reviews Section (Sticky) -->
+    <section class="sticky-section">
+        <div class="sticky-bg"
+            style="background-image: linear-gradient(135deg, rgba(240, 147, 251, 0.85) 0%, rgba(245, 87, 108, 0.85) 100%), url('https://images.unsplash.com/photo-1556656793-08538906a9f8?w=1920&q=80'); background-color: #f093fb; background-size: cover; background-position: center;">
+        </div>
+        <div class="content-overlay">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h2 data-i18n="reviews_title" style="color: white; font-size: 3rem; margin-bottom: 20px;">Client
+                        Testimonials</h2>
+                    <p data-i18n="reviews_subtitle"
+                        style="color: rgba(255,255,255,0.9); font-size: 1.2rem; margin-bottom: 60px;">See what our
+                        satisfied customers have to say.</p>
+                </div>
+                <div class="reviews-grid">
+                    <div class="review-card">
+                        <div class="stars">★★★★★</div>
+                        <p>"Excellent service! The team installed 8 cameras in our factory in Pune. Very professional
+                            and clean work."</p>
+                        <h4>- Rajesh Kumar</h4>
+                    </div>
+                    <div class="review-card">
+                        <div class="stars">★★★★★</div>
+                        <p>"Best CCTV dealer in the city. The mobile app setup was smooth and the picture quality is
+                            amazing."</p>
+                        <h4>- Priya Sharma</h4>
+                    </div>
+                    <div class="review-card">
+                        <div class="stars">★★★★☆</div>
+                        <p>"Quick response and affordable pricing. Highly recommended for home security."</p>
+                        <h4>- Amit Patel</h4>
+                    </div>
+                </div>
+                <div class="text-center mt-4">
+                    <button class="btn btn-secondary" onclick="alert('Redirect to Google Reviews or Review Form')"
+                        data-i18n="btn_write_review">Write a Review</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section bg-dark text-white">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 data-i18n="contact_title">Contact Us</h2>
+                <p data-i18n="contact_subtitle">Visit our showroom or contact us for support.</p>
+            </div>
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <strong>Address:</strong><br>
+                            123 Security Plaza, MG Road,<br>
+                            Bangalore, India 560001
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <div>
+                            <strong>Phone:</strong><br>
+                            +91 98765 43210
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <strong>Email:</strong><br>
+                            jidhntr@gmail.com
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <strong>Business Hours:</strong><br>
+                            Mon - Sat: 9:00 AM - 7:00 PM<br>
+                            Sunday: Closed
+                        </div>
+                    </div>
+                </div>
+                <div class="map-container">
+                    <!-- Google Maps Placeholder -->
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.984333668646!2d77.59456261482197!3d12.971598690855766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae167756982cb5%3A0xbc940ec5d1875526!2sMG%20Road%2C%20Bengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1633000000000!5m2!1sen!2sin"
+                        width="100%" height="100%" style="border:0; border-radius: 10px;" allowfullscreen=""
+                        loading="lazy">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Get a Quote Section -->
+    <section id="quote" class="section bg-dark text-white">
+        <div class="container">
+            <div class="quote-wrapper">
+                <div class="quote-text">
+                    <h2 data-i18n="quote_title">Get a Free Quote Today</h2>
+                    <p data-i18n="quote_subtitle">Fill out the form and our security expert will call you back within 24
+                        hours with a customized
+                        plan.</p>
+                    <ul class="benefits-list">
+                        <li><i class="fas fa-check-circle"></i> <span data-i18n="benefit_survey">Free Site Survey</span>
+                        </li>
+                        <li><i class="fas fa-check-circle"></i> <span data-i18n="benefit_warranty">1 Year
+                                Warranty</span></li>
+                        <li><i class="fas fa-check-circle"></i> <span data-i18n="benefit_support">24/7 Support</span>
+                        </li>
+                    </ul>
+                </div>
+                <form class="quote-form" id="quoteForm">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" placeholder="Phone Number" required>
+                    </div>
+                    <div class="form-group">
+                        <select>
+                            <option value="" disabled selected>Select Requirement</option>
+                            <option value="home">Home Security</option>
+                            <option value="office">Office/Commercial</option>
+                            <option value="industrial">Industrial/Factory</option>
+                            <option value="repair">Repair/Maintenance</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Message / Specific Needs" rows="4"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block" data-i18n="btn_submit_request">Submit
+                        Request</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3><i class="fas fa-shield-alt"></i> RJ Security Systems</h3>
+                    <p data-i18n="footer_tagline">Securing India, one camera at a time.</p>
+                    <p style="margin-top: 10px; font-size: 0.9rem; opacity: 0.8;">
+                        Your trusted partner for CCTV surveillance and security solutions.
+                    </p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <a href="#hero" data-i18n="nav_home">Home</a>
+                    <a href="#services" data-i18n="nav_services">Services</a>
+                    <a href="#gallery">Gallery</a>
+                    <a href="#reviews">Reviews</a>
+                    <a href="#contact" data-i18n="nav_contact">Contact</a>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact Info</h4>
+                    <p><i class="fas fa-phone"></i> +91 98765 43210</p>
+                    <p><i class="fas fa-envelope"></i> jidhntr@gmail.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Bangalore, India</p>
+                </div>
+                <div class="footer-social">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="https://facebook.com" target="_blank" aria-label="Facebook"><i
+                                class="fab fa-facebook-f"></i></a>
+                        <a href="https://twitter.com" target="_blank" aria-label="Twitter"><i
+                                class="fab fa-twitter"></i></a>
+                        <a href="https://instagram.com" target="_blank" aria-label="Instagram"><i
+                                class="fab fa-instagram"></i></a>
+                        <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn"><i
+                                class="fab fa-linkedin-in"></i></a>
+                        <a href="https://youtube.com" target="_blank" aria-label="YouTube"><i
+                                class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                &copy; 2024 RJ Security Systems. All rights reserved. | <a href="#"
+                    style="color: var(--accent-color);">Privacy Policy</a> | <a href="#"
+                    style="color: var(--accent-color);">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/919876543210" class="whatsapp-float" target="_blank" aria-label="Chat on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Particle Canvas -->
+    <canvas id="particle-canvas"></canvas>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
